@@ -87,6 +87,7 @@ export default function Contact() {
               alt=""
               style={{
                 width: " 64%",
+                height: "92%",
                 zIndex: "-1",
               }}
             />
