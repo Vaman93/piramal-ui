@@ -1,0 +1,165 @@
+.heroSection {
+  background-image: url("./img/Untitled-12.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 1rem 0px;
+  background-color: linear-gradient(0deg, rgba(26, 36, 64, 0.2), rgba(26, 36, 64, 0.2)),
+    linear-gradient(180deg, rgba(34, 48, 88, 0) 62.43%, #1B243F 100%);
+}
+
+.enquireButton {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 8px 16px;
+  background: linear-gradient(0deg, #0EA57A, #0EA57A),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* icon Css */
+.iconComponent {
+  display: flex;
+  align-items: center;
+  gap: 1rex;
+
+}
+.subHeaderIcon {
+  font-size: 0.8rem;
+  font-weight: 200;
+  line-height: 0.9rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8f8f8f;
+}
+
+.iconComponent:nth-child(3) {
+  border: none !important;
+}
+
+.iconComponent>.material-icons {
+  color: #14b285;
+  background: #EBFAFF;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+
+.iconHeading {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1C1C1C;
+}
+
+.searchicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0EA57A;
+    border-radius: 0.5rem;
+  
+  }
+  
+  
+  
+  
+  /* Card css */
+  
+  .FristCardbackImg {
+    width: 260px;
+    height: 350px;
+    position: absolute;
+    transform: rotate(-12deg);
+    top: 0;
+    border: 1px solid yellow;
+  }
+  
+  .FristCardFrontImg {
+    width: 260px;
+    height: 350px;
+    position: absolute;
+    transform: rotate(9deg);
+    top: -8%;
+    left: 12%;
+  }
+  
+  .SecondCardbackImg {
+    width: 260px;
+    height: 350px;
+    position: absolute;
+    transform: rotate(-12deg);
+    top: 0;
+    border: 1px solid yellow;
+  }
+  
+  .SecondCardFrontImg {
+    width: 260px;
+    height: 350px;
+    position: absolute;
+    transform: rotate(9deg);
+    top: -8%;
+    position: absolute;
+    left: 72% !important;
+    right: 0 !important;
+  }
+  
+  .cardText>.title {
+    color: #00E5A1;
+    font-size: 0.8rem;
+  
+  }
+  
+  .cardText>.heading {
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: #FFFFFF;
+  }
+  
+  .cardText>.info {
+    color: #b5b5b5;
+    margin-top: 1rem;
+    font-weight: 100;
+}
+
+.infoCard2 {
+  margin-top: 8rem;
+}
+
+.infoCard2>.cardText {
+  width: 60%;
+}
+.infoCard2>.imgCrad>.front {
+
+  position: absolute;
+  left: 70% !important;
+  right: 0 !important;
+}
+.cardText>ul>li {
+  color: #b5b5b5;
+  margin-top: 1rem;
+  font-weight: 100;
+  line-height: 1.2rem;
+}
+
+/* Map img */
+
+
+.mapImg {
+  position: absolute;
+  background-image: radial-gradient(transparent 0%, transparent -40%, #1B243F 72%);
+  height: 92%;
+  width: 64%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
