@@ -1,6 +1,6 @@
 ## Piramal Ui
 
-Technology stack React, HTML, CSS and JavaScript , 
+Technology stack  HTML, CSS, JavaScript ,React, Material Icons, Tailwind Css, Sheet DB, Netlify
 
 visit site (https://piramal-ui.netlify.app/)
 
@@ -12,9 +12,6 @@ Installation:
 
 `npm install`  
 
-To Run Test Suite:  
-
-`npm test`  
 
 To Start Server:
 
