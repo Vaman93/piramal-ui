@@ -42,7 +42,7 @@ export default function Neighborhood() {
               .
             </p>
             <div>
-              <p className="text-3xl text-white">Bhau Daji Lad Museum</p>
+              <p className="text-3xl text-white">St. Paul’s Tamil Church</p>
               <p className="text-lightWhite text-[0.9rem]">3.5 Km Away</p>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function Neighborhood() {
               .
             </p>
             <div>
-              <p className="text-3xl text-white">Bhau Daji Lad Museum</p>
+              <p className="text-3xl text-white">Magen David Synagogue</p>
               <p className="text-lightWhite text-[0.9rem]">3.5 Km Away</p>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Neighborhood() {
               .
             </p>
             <div>
-              <p className="text-3xl text-white">Bhau Daji Lad Museum</p>
+              <p className="text-3xl text-white">Byculla Club − Fire Temple</p>
               <p className="text-lightWhite text-[0.9rem]">3.5 Km Away</p>
             </div>
           </div>

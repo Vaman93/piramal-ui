@@ -1,17 +1,17 @@
 import React from "react";
-import logo from "../img/logo.png";
+import logo from "../img/headerLogo.png";
 
 export default function Header() {
   return (
     <div className="flex items-center justify-between text-white py-4 px-20">
-      <div className=" flex items-center ">
+      <div className=" flex items-end  ">
         <img src={logo} alt="Logo" className="w-16 h-16 mr-2 " />
-        <span className=" text-4xl leading-6 font-medium ">
+        <p className=" text-4xl leading-3 font-medium ">
           Piramal
-          <span className="text=[0.9rem] font-medium">
+          <span className="text-base font-medium">
             <br /> aranya
           </span>
-        </span>
+        </p>
       </div>
       <div
         className="flex  text-center justify-center text-sm  gap-7 "
